@@ -7,7 +7,6 @@
 <br>
 </center>
 
-<table><td bgcolor=#33AAFF> <li>咳咳</td></table>
 
 ---
 
