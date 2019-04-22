@@ -7,11 +7,8 @@
 <br>
 </center>
 
-<body bgcolor="#00AA00">
+<body background="http://www.w3school.com.cn/clouds.gif">
 
-fdsafdsaf
-
-fdsa
 
 </body>
 
