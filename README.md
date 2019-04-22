@@ -7,10 +7,7 @@
 <br>
 </center>
 
-<body background="http://www.w3school.com.cn/clouds.gif">
-
-
-</body>
+<table><td bgcolor=#33AAFF> <li>咳咳</td></table>
 
 ---
 
