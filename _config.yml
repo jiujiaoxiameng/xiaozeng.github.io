@@ -1,120 +1,38 @@
-#
-# Basic settings.
-#
-# url: http://localhost:4000
-# baseurl: ""
-url: http://xiaozeng.github.io
-baseurl: /xiaozeng.github.io
-title: 写给小曾
-description: Some descriptions of yourself.
-avatar: /assets/img/ogp.png
-# favicon: /favicon.ico
-favicon: /assets/img/ogp.png
-# language: ja
-language: ch
+# Site settings
+title: Emerald | A simple Jekyll blog
+description: "A minimal blog template, build with Jekyll."
+url: "http://www.jacoporabolini.com/emerald"
+author:
+  name: "Jacopo Rabolini"
+  email: "hello@jacoporabolini.com"
+  url: "http://www.jacoporabolini.com"
 
-#
-# Icons
-#
-icons:
-  rss: true
-  email:
-  github: ttskch
-  bitbucket:
-  twitter: ttskch
-  facebook:
-  google_plus:
-  tumblr:
-  behance:
-  dribbble:
-  flickr:
-  instagram:
-  linkedin: # full URL
-  pinterest:
-  reddit:
-  soundcloud:
-  stack_exchange: # full URL
-  steam:
-  wordpress:
-  youtube:
+# Build settings
+baseurl: /emerald # Change this to your relative path (ex: /blog/), or leave just a /
+markdown: kramdown
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 8
+paginate_path: /page:num/
 
-#
-# Prettify url.
-#
-permalink: pretty
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
 
-#
-# Scripts.
-#
-google_analytics: # e.g. UA-000000-01
-disqus:
-
-#
-# Localizations.
-#
-str_next: Next
-str_prev: Prev
-str_read_more: Read more...
-str_search: Search
-str_recent_posts: Recent posts
-str_show_all_posts: Show all posts
-
-#
-# Recent posts.
-#
-recent_posts_num: 10
-
-#
-# Pagination.
-#
-paginate: 10
-paginate_path: page/:num
-
-#
-# Social.
-#
-share_buttons:
-  twitter: true
-  facebook: false # needs ogp.fb.app_id
-  hatena: false
-ogp:
-  image_url: //ttskch.github.io/jekyll-ttskch-theme/assets/img/ogp.png
-  fb:
-    admin: # facebook admin id
-    app_id: # facebook application id
-
-#
-# Plugins.
-#
+# Plugins
 gems:
   - jekyll-paginate
-  - jekyll-feed
-  - jemoji
 
-#
-# Styles: see "_sass/base/_variables.scss"
-#
+# Custom variables
+version: "1.1.0"
 
-#
-# !! Danger zone !!
-#
-
-include: ["_pages"]
-
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-
-excerpt_separator: <!--more-->
-
-sass:
-  sass_dir: _sass
-  style: :compressed # or :expanded
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - vendor
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: false
