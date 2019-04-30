@@ -1,14 +1,14 @@
 # Setup
-title:        写给小曾
-tagline:      ❤
-baseurl:      "wfnian.top"
+title:        Project or Site name
+tagline:      A responsive theme for your project on GitHub Pages
+baseurl:      ""
 paginate:     1
 locale:       "en"
 
 # About/contact
 author:
-  name:       王方年
-  url:        https://xzeng.top 
+  name:       Author name
+  url:        http://yourhomepage.com 
 
 # Gems
 gems:
