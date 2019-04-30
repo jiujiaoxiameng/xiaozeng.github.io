@@ -5,12 +5,13 @@ title: {{ site.name }}
 
 <div id="home">
   <h1>正文</h1>
+  <!--
   <ul class="posts">
-    <!--
+    
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
-  -->
+  
     测试1
   </ul>
 
@@ -21,10 +22,9 @@ title: {{ site.name }}
       href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     {% endfor %}
   </div>
-
+  -->
   测试3
-  <h2>{{ page.title }}</h2>
-  <p class="meta">{{ page.date | date_to_string }}</p>
+
 
   {{ content }}
 
