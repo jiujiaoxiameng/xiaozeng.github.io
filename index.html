@@ -11,11 +11,15 @@ title: {{ site.name }}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   -->
-
+  测试1
   </ul>
 
   <div class="posts">
-    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    测试2
+    {% for post in site.posts %}
+    <span>{{ post.date | date_to_string }}</span> &raquo; <a
+        href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    {% endfor %}
   </div>
 
 </div>
