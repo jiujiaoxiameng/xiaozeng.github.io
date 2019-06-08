@@ -2,16 +2,17 @@
 layout: default
 title: {{ site.name }}
 ---
- <center>
-<div id="home">
+<center>
+  <div id="home">
 
-  <ul class="posts">
-   
+    <ul class="posts" style="padding-left: 0px;">
+
       {% for post in site.posts %}
       <p> <a href="{{ site.baseurl }}{{ post.url }}" class="btn"> {{ post.title }} </a>
       </p>
       {% endfor %}
-   
-  </ul>
 
-</div> </center>
+    </ul>
+
+  </div>
+</center>
