@@ -7,10 +7,10 @@ title: {{ site.name }}
 
   <ul class="posts">
     {% for post in site.posts %}
-    <li> ⇨ <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    <li> ⇨ <a href="{{ site.baseurl }}{{ post.url }}" class="btn">{{ post.title }}</a>
       <span>{{ post.date | date_to_string }}</span></li>
     {% endfor %}
-    <a href="{{ site.baseurl }}/main/0000/00/01/小黑账本哦.html">{{ post.title }}</a></li>
+    <a href="{{ site.baseurl }}/main/0000/01/01/小黑账本哦.html">{{ post.title }}</a></li>
   </ul>
 
 </div>
