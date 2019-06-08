@@ -6,10 +6,12 @@ title: {{ site.name }}
 <div id="home">
 
   <ul class="posts">
-    {% for post in site.posts %}
-    <p>  <a href="{{ site.baseurl }}{{ post.url }}" class="btn">⇨{{ post.title }}</a>
+    <center>
+      {% for post in site.posts %}
+      <p> <a href="{{ site.baseurl }}{{ post.url }}" class="btn"> {{ post.title }} </a>
       </p>
-    {% endfor %}
+      {% endfor %}
+    </center>
   </ul>
 
 </div>
