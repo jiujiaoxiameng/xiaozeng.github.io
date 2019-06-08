@@ -4,12 +4,13 @@ title: {{ site.name }}
 ---
 
 <div id="home">
-  
+
   <ul class="posts">
     {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> ⇨&raquo; <a
-        href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    <li> ⇨ <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      <span>{{ post.date | date_to_string }}</span></li>
     {% endfor %}
+    <a href="{{ site.baseurl }}1010/06/01/xixi.html">{{ post.title }}</a></li>
   </ul>
 
 </div>
