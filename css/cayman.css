@@ -222,3 +222,12 @@ a:hover { text-decoration: underline; }
   transition: box-shadow .25s;
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
+
+.post-list {
+  margin-left: 0;
+  margin-top: 32px;
+  list-style: none;
+  list-style-type: none;
+  list-style-position: initial;
+  list-style-image: initial;
+}
