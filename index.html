@@ -3,16 +3,16 @@ layout: default
 title: {{ site.name }}
 ---
 
-  <div id="home">
+<div id="home">
 
-    <ul class="post-list" style="padding-left: 0px;">
-      {% for post in site.posts %}
-      <li class="card-panel hoverable">
-        <span class="grey-text right">{{ post.date | date_to_string }}
-          <a href="{{ site.baseurl }}{{ post.url }}" class="post-link"> {{ post.title }} </a>
+  <ul class="post-list" style="padding-left: 0px;">
+    {% for post in site.posts %}
+    <li class="card-panel hoverable">
+      <span class="grey-text right">{{ post.date | date_to_string }}</span>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="post-link"> {{ post.title }} </a>
 
-          {% endfor %}
-      </li>
-    </ul>
+      {% endfor %}
+    </li>
+  </ul>
 
-  </div>
+</div>
