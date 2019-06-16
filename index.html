@@ -6,8 +6,8 @@ title: {{ site.name }}
   <div id="home">
 
     <ul class="post-list" style="padding-left: 0px;">
+      {% for post in site.posts %}
       <li class="card-panel hoverable">
-        {% for post in site.posts %}
         <span class="grey-text right">{{ post.date | date_to_string }}
           <a href="{{ site.baseurl }}{{ post.url }}" class="post-link"> {{ post.title }} </a>
 
