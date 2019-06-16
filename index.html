@@ -5,14 +5,15 @@ title: {{ site.name }}
 <center>
   <div id="home">
 
-    <ul class="posts" style="padding-left: 0px;">
-
+    <!-- <ul class="posts" style="padding-left: 0px;"> -->
+    <li class="card-panel hoverable">
       {% for post in site.posts %}
-      <a href="{{ site.baseurl }}{{ post.url }}" class="btn"> {{ post.title }} </a>
-      
-      {% endfor %}
+      <span class="grey-text right">{{ post.date | date_to_string }}
+        <a href="{{ site.baseurl }}{{ post.url }}" class="post-link"> {{ post.title }} </a>
 
-    </ul>
+        {% endfor %}
+    </li>
+    <!-- </ul> -->
 
   </div>
 </center>
