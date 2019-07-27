@@ -235,7 +235,7 @@ a:hover { text-decoration: underline; }
   box-shadow: 2px 6px 6px #888888;
 }
 
-.item-header { color: #fff; text-align: center; background-color: #6f5fff; background-image: linear-gradient(0deg, #d2f74d, #fa9668); }
+.item-header { color: #fff; text-align: center; background-color: #6f5fff; background-image: linear-gradient(0deg, #ffffff, #fa9668); }
 @media screen and (min-width: 64em) { .item-header { padding: 5rem 6rem; } }
-@media screen and (min-width: 42em) and (max-width: 64em) { .item-header { padding: 3rem 4rem; } }
-@media screen and (max-width: 42em) { .item-header { padding: 0.1rem 1rem; } }
+@media screen and (min-width: 42em) and (max-width: 64em) { .item-header { padding: 1rem 2rem; } }
+@media screen and (max-width: 42em) { }
