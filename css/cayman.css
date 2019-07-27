@@ -238,4 +238,4 @@ a:hover { text-decoration: underline; }
 .item-header { color: #fff; text-align: center; background-color: #6f5fff; background-image: linear-gradient(0deg, #ffffff, #fa9668); }
 @media screen and (min-width: 64em) { .item-header { padding: 5rem 6rem; } }
 @media screen and (min-width: 42em) and (max-width: 64em) { .item-header { padding: 1rem 2rem; } }
-@media screen and (max-width: 42em) { }
+@media screen and (max-width: 42em) { .item-header { padding: 1rem 1rem; }}
