@@ -24,9 +24,7 @@ paginate: 5
 # MatJek specific configurations
 github_profile: "https://github.com/wfnian"
 user: "写给小曾"
-user_email: "我喜欢你噢"
-contact_url: "https://goo.gl/tVljbV"
-disqus_shortname: "wfnian"
+user_email: "你好哇，小曾"
 
 # Build settings
 markdown: kramdown
