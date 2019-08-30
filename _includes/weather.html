@@ -1,19 +1,11 @@
-<meta http-equiv="Access-Control-Allow-Origin" content="*">
 <div class="col s12 tag-div">
-    <script>
-        var url = 'https://api.seniverse.com/v3/weather/daily.json?key=SzKBOBB-BccQPO3td&location=定西&language=zh-Hans&unit=c&start=0&days=5';
-        var httpRequest = new XMLHttpRequest();//第一步：建立所需的对象
-        httpRequest.open('GET', url, true);//第二步：打开连接  将请求参数写在url中  ps:"./Ptest.php?name=test&nameone=testone"
-        httpRequest.send();//第三步：发送请求  将请求参数写在URL中
-        /**
-         * 获取数据后的处理程序
-         */
-        httpRequest.onreadystatechange = function () {
-            if (httpRequest.readyState == 4 && httpRequest.status == 200) {
-                var json = httpRequest.responseText;//获取到json字符串，还需解析
-                alert(json);
-            }
-        };
 
-    </script>
+    <div style="text-align: center">
+        <iframe width="250" scrolling="no" height="405" frameborder="0" allowtransparency="true"
+            src="//i.tianqi.com/index.php?c=code&id=4&color=%23&bgc=%23&bdc=%23&icon=3&py=weiyuan&wind=0&num=2&site=14"></iframe>
+    </div>
+
+    <div class="divider"></div><br>
+    <a class="waves-effect" style="font-size: 13px"><i
+            class="material-icons">notifications_active</i>还是要注意看窗外天气备伞哦，有时候不准确的。</a>
 </div>
