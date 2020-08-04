@@ -17,7 +17,7 @@ title: 写给小曾
 description: > # this means to ignore newlines until "baseurl:"
   <a href="http://cutezeng.com">写给小曾</a>created by wfnian.点击左上角"☰"查看更多.
 baseurl: ""
-url: "https://cutezeng.top/"
+url: "https://wfnian6.github.io/xiaozeng.github.io/"
 permalink: /:year/:month/:day/:title
 paginate: 5
 

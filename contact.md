@@ -13,5 +13,5 @@ css: ["contact.css"]
 -->
 <script type=text/javascript>
   alert("祝幸福~");
-  window.location.href="https://cutezeng.top/page2/";
+  window.location.href="https://https://wfnian6.github.io/xiaozeng.github.io/page2/";
 </script>
